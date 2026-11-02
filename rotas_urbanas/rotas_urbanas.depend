@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1793628568 source:c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\src\bst.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"bst.h"
+
+1793628509 c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\include\bst.h
+	"rotas.h"
+
+1793626844 c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\include\rotas.h
+
+1793627372 source:c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\src\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1793627255 c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\include\fila.h
+
+1793628194 source:c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\src\grafo.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+
+1793628145 c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\include\grafo.h
+	"lista.h"
+	"fila.h"
+
+1793626982 c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\include\lista.h
+
+1793627024 source:c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\src\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1793628715 source:c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"rotas.h"
+	"bst.h"
+	"grafo.h"
+	"pilha.h"
+	"ordenacao.h"
+
+1793627517 c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\include\pilha.h
+
+1793628619 c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\include\ordenacao.h
+	"bst.h"
+
+1793628657 source:c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\src\ordenacao.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ordenacao.h"
+
+1793627548 source:c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\src\pilha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pilha.h"
+
+1743445502 source:c:\users\gabri\onedrive\햞ea de trabalho\fatec\terceiro semestre\estrutura de dados\rotas urbanas\rotas-urbanas\rotas_urbanas\main.c
+	<stdio.h>
+	<stdlib.h>
+
