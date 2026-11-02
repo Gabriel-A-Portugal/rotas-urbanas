@@ -184,3 +184,33 @@ int obter_maior_id_bst(ArvoreBST* raiz, int *maior_id) {
     *maior_id = atual->dados.id;
     return 1;
 }
+
+static int contar_nos(NoBST* no) {
+    if(no == NULL) return 0;
+    return 1 + contar_nos(no->esq) + contar_nos(no->dir);
+}
+
+static void preencher_vetor(NoBST* no, Rota* vetor, int* idx) {
+    if(no == NULL) return;
+    preencher_vetor(no->esq, vetor, idx);
+    vetor[*idx] = no->dados;
+    (*idx)++;
+    preencher_vetor(no->dir, vetor, idx);
+}
+
+Rota* extrair_registros_bst(ArvoreBST* raiz, int *total) {
+    if(raiz == NULL || *raiz == NULL) {
+        *total = 0;
+        return NULL;
+    }
+    int qtd = contar_nos(*raiz);
+    Rota* vetor = (Rota*) malloc(qtd * sizeof(Rota));
+    if(vetor == NULL) {
+        *total = 0;
+        return NULL;
+    }
+    int idx = 0;
+    preencher_vetor(*raiz, vetor, &idx);
+    *total = qtd;
+    return vetor;
+}

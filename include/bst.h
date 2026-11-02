@@ -18,4 +18,6 @@ void listar_em_ordem_bst(ArvoreBST* raiz);
 int obter_menor_id_bst(ArvoreBST* raiz, int *menor_id);
 int obter_maior_id_bst(ArvoreBST* raiz, int *maior_id);
 
+Rota* extrair_registros_bst(ArvoreBST* raiz, int *total);
+
 #endif
